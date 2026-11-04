@@ -38,7 +38,7 @@ jobs:
         with:
           ocaml-compiler: 5.4.1
           opam-disable-sandboxing: true
-          dune-cache: true
+          cache: true
         env:
           OPAMLOCKED: locked
 
